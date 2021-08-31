@@ -1,0 +1,12 @@
+<model-viewer src="cake.glb" camera-controls ar-modes="scene-viewer webxr quick-look" ar ios-src="cake.usdz" camera-orbit="-0.5929deg 43.94deg 0.9445m" poster="poster.png" auto-rotate>
+
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
